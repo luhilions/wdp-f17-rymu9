@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <style> .feedback { width: 500px; background-color: gray; padding: 10px; border: 2px; font-family; tahoma; font-size: 20px; }</style>
+    <title>Web Form</title>
+  </head>
+
+  <body>
+    <form class="feedback">
+    <fieldset>
+      <legend>Give us your feedback</legend>
+        Full name: <input type="text" size="20" name="firstname" />
+        <br />
+      Year:<br />
+        <input type="radio" name="year" value="brown" />Freshman<br/>
+        <input type="radio" name="year" value="blue" />Sophmore<br />
+        <input type="radio" name="year" value="green" />Junior<br />
+        <input type="radio" name="year" value="other" />Senior<br />
+      Activities: <br />
+        <input type="checkbox" size="30" name="Sport" />Sports<br/>
+        <input type="checkbox" size="30" name="Music" />Music<br />
+        <input type="checkbox" size="30" name="Theator" />Theater<br />
+        <input type="checkbox" size="30" name="Other" />Other<br />
+      Foreign Languages Spoken:<br />
+        <select name="language">
+          <option value="spanish">Spanish</option>  
+          <option value="french">French</option>
+          <option value="japanese">Japanese</option>
+          <option value="arabic">Arabic</option>
+        </select>
+      <div>
+      Comment: <br />
+      <textarea name="more" rows="8" cols="30">Enter your feedback here.
+      </textarea><br />
+        <input class="center" type="button" value="Click here to submit"/>
+      </div>
+     </fieldset>
+    </form>
+  </body>
+
+</html>
